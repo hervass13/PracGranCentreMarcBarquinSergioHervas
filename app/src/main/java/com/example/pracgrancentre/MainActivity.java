@@ -10,30 +10,32 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
+    ImageView Business;
+    ImageView Transport;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Business = findViewById(R.id.business);
 
-        ImageView Restaurants = findViewById(R.id.restaurants);
-        ImageView movies = findViewById(R.id.movies);
-
-        Restaurants.setOnClickListener(new View.OnClickListener() {
+        Business.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(), Restaurants.class);
+                Intent in = new Intent(getApplicationContext(), business.class);
                 startActivity(in);
             }
         });
 
-        movies.setOnClickListener(new View.OnClickListener() {
+        Transport = findViewById(R.id.transport);
+
+        Transport.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in2 = new Intent(getApplicationContext(), Movies.class);
-                startActivity(in2);
+                Intent in = new Intent(getApplicationContext(), transport.class);
+                startActivity(in);
             }
         });
-
     }
 }
