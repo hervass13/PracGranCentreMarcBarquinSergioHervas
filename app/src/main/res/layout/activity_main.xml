@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/icpracgrancentre_foreground"
     tools:context=".MainActivity">
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/businesslogo"
         android:id="@+id/business"
-        android:layout_marginLeft="80dp"
+        android:layout_marginLeft="150dp"
         android:layout_marginTop="100dp"
         />
     <ImageView
@@ -28,7 +29,7 @@
         android:src="@drawable/movies"
         android:id="@+id/movies"
         android:layout_below="@+id/business"
-        android:layout_marginLeft="80dp"
+        android:layout_marginLeft="150dp"
         android:layout_marginTop="60dp"
         />
     <ImageView
@@ -47,7 +48,7 @@
         android:src="@drawable/hotels"
         android:id="@+id/hotels"
         android:layout_below="@+id/movies"
-        android:layout_marginLeft="80dp"
+        android:layout_marginLeft="150dp"
         android:layout_marginTop="60dp"
         />
     <ImageView
