@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     ImageView Business;
     ImageView Transport;
+    ImageView Movies;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(getApplicationContext(), transport.class);
+                startActivity(in);
+            }
+        });
+
+        Movies = findViewById(R.id.movies);
+
+        Movies.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getApplicationContext(), com.example.pracgrancentre.Movies.class);
                 startActivity(in);
             }
         });
