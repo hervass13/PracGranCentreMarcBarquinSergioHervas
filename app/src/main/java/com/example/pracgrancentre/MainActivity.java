@@ -5,14 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
     ImageView Business;
     ImageView Transport;
-    ImageView Movies;
+    ImageView movies;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,13 +38,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Movies = findViewById(R.id.movies);
+        movies = findViewById(R.id.movies);
 
-        Movies.setOnClickListener(new View.OnClickListener() {
+        movies.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(), com.example.pracgrancentre.Movies.class);
-                startActivity(in);
+                Intent intentMovies = new Intent(getApplicationContext(), Movies.class);
+                startActivity(intentMovies);
             }
         });
     }
