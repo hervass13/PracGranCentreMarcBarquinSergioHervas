@@ -2,4 +2,8 @@
     <string name="app_name">PracGranCentre</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="taxis">TAXIS GRANOLLES: 938 70 30 28\nALTUBA Taxis Granollers,
+Canovelles i Les Franqueses: 668 84 39 85\nTaxi Granollers-Arnau: 678 05 51 37\n
+Taxi Granollers 7 plazas Javier León: 611 40 79 82\n
+Ràdio Taxi Granollers: 938 70 30 00\nTaxi Durán 24h. Granollers: 678 44 51 30</string>
 </resources>
