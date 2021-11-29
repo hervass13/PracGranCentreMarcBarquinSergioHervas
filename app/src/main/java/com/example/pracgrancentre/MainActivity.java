@@ -9,19 +9,20 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView Business;
-    ImageView Transport;
+    ImageView business;
+    ImageView transport;
     ImageView movies;
     ImageView restaurants;
 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Business = findViewById(R.id.business);
+        business = findViewById(R.id.business);
 
-        Business.setOnClickListener(new View.OnClickListener() {
+        business.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(getApplicationContext(), business.class);
@@ -29,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Transport = findViewById(R.id.transport);
+        transport = findViewById(R.id.transport);
 
-        Transport.setOnClickListener(new View.OnClickListener() {
+        transport.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(getApplicationContext(), transport.class);

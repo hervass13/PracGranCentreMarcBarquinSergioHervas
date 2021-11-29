@@ -11,19 +11,23 @@
         android:theme="@style/Theme.PracGranCentre">
         <activity
             android:name=".transport"
-            android:exported="true" />
+            android:exported="true"
+            android:configChanges="orientation"/>
         <activity
             android:name=".business"
-            android:exported="true" />
+            android:exported="true"
+            android:configChanges="orientation"/>
         <activity
             android:name=".Movies"
-            android:exported="true" />
+            android:exported="true"
+            android:configChanges="orientation"/>
         <activity
             android:name=".Restaurants"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:configChanges="orientation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

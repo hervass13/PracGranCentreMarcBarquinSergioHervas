@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerruqueriesF">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PERRUQUERIES GRANOLLERS"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nXavier Arcarons Perruqueria Granollers"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="358dp"
+            android:layout_height="244dp"
+            android:src="@drawable/peluxavier"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACTAR: 93 870 50 85\nMAIL: xavierarcarons@gmail.com\nLLOC WEB: https://www.xavierarcarons.com/"
+            android:autoLink="all" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UBICACIÓ: Carrer Príncep de Viana, nº 6, 08401 Granollers, Barcelona
+            \nhttps://www.google.c  om/maps/place/Xavier+Arcarons+Perruquers/@41.6060709,2.2854354,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7c67f0e6401:0xd07f6880a8d3593a!8m2!3d41.6060912!4d2.2876236"
+            android:autoLink="web"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/horarioxavier"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nBellesa Essencial"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="358dp"
+            android:layout_height="244dp"
+            android:src="@drawable/pelubellesa"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACTAR: +34 93 870 88 07\nMAIL: hola@bellesaessencial.com\nLLOC WEB:https://bellesaessencial.com/"
+            android:autoLink="all" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UBICACIÓ: c/ Corró, 23-25 08401 Granollers
+            \nhttps://www.google.com/maps/place/Bellesa+Essencial/@41.6096349,2.2857005,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7cf4a6d6f39:0x3518ac22197aa6d6!8m2!3d41.6096349!4d2.2878892?hl=es"
+            android:autoLink="web"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/horaripelubellessa"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nEl Saló Anna Serra"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="358dp"
+            android:layout_height="244dp"
+            android:src="@drawable/serra1"/>
+        <ImageView
+            android:layout_width="358dp"
+            android:layout_height="244dp"
+            android:src="@drawable/serra2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACTAR: 674 624 651 | 674 624 651\nMAIL: info@elsaloperruqueria.com\nLLOC WEB: https://elsaloperruqueria.com/"
+            android:autoLink="all" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UBICACIÓ: Carrer de Joan Prim, 131, 08401 Granollers, Barcelona
+            \nhttps://www.google.com/maps/place/EL+SAL%C3%93+Anna+Serra/@41.6129755,2.2879271,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7ce8760facf:0x13a3e088bb144609!8m2!3d41.6129755!4d2.2901158"
+            android:autoLink="web"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/horarioserra"/>
+    </LinearLayout>
+</ScrollView>

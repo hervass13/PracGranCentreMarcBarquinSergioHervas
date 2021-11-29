@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CopisteriesF">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="COPISTERIES"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\Copisteria A4"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="358dp"
+            android:layout_height="244dp"
+            android:src="@drawable/a4"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/tlf"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACTAR: 938 70 00 26\nMAIL: a4copisteria.granollers@gmail.com\nLLOC WEB: https://www.a4copisteria.com/"
+            android:autoLink="all" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UBICACIÓ: Carrer de Corró, 9, 08401 Granollers, Barcelona
+            \nhttps://www.google.com/maps/place/COPISTERIA+A4/@41.5523533,2.1460053,11z/data=!3m1!5s0x12a4c7cf4b624c5b:0x175641ea7fdef267!4m9!1m2!2m1!1scopisteria+a4!3m5!1s0x12a4c7cf4c46c7f5:0xdd7e89011cfc6946!8m2!3d41.6093373!4d2.287877!15sCg1jb3Bpc3RlcmlhIGE0Wg8iDWNvcGlzdGVyaWEgYTSSAQljb3B5X3Nob3CaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTTBhMkUzV21SbkVBRQ"
+            android:autoLink="web"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/horarioa4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nPLANOLS Copisteria tècnica"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="358dp"
+            android:layout_height="244dp"
+            android:src="@drawable/planols1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACTAR: 93 870 17 04\nMAIL: copisteria@planols.com\nLLOC WEB: http://www.planols.com/"
+            android:autoLink="all" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UBICACIÓ: Carrer d'Emili Botey Alsina, 20, 08402 Granollers, Barcelona
+            \nhttps://www.google.com/maps/place/PLANOLS+copisteria+t%C3%A8cnica/@41.59725,2.2874243,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7e9c85da33f:0x217ef1b45dd5548f!8m2!3d41.59725!4d2.289613?hl=es"
+            android:autoLink="web"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/horarioplanols"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nMolins De Paper"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="358dp"
+            android:layout_height="244dp"
+            android:src="@drawable/molins1"/>
+        <ImageView
+            android:layout_width="358dp"
+            android:layout_height="244dp"
+            android:src="@drawable/molins2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACTAR: 938467590\nMAIL: papmolins@gmail.com\nLLOC WEB: https://molinsdepaper.amilibro.com/"
+            android:autoLink="all" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UBICACIÓ: Avinguda de, Carrer de Joan Prim, 130, 08402 Granollers, Barcelona
+            \nhttps://www.google.com/maps/place/Molins+de+Paper/@41.6129349,2.2881282,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7ce7da9a841:0x24e3de20dc47f3e2!8m2!3d41.6129349!4d2.2903169?hl=es"
+            android:autoLink="web"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/horariomolins"/>
+    </LinearLayout>
+</ScrollView>
