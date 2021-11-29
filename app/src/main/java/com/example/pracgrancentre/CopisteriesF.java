@@ -1,5 +1,7 @@
 package com.example.pracgrancentre;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,6 +62,38 @@ public class CopisteriesF extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_copisteries, container, false);
+        View v = inflater.inflate(R.layout.fragment_copisteries, container, false);
+
+        ImageView ubi = v.findViewById(R.id.ubi);
+
+        ubi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/COPISTERIA+A4/@41.5523533,2.1460053,11z/data=!3m1!5s0x12a4c7cf4b624c5b:0x175641ea7fdef267!4m9!1m2!2m1!1scopisteria+a4!3m5!1s0x12a4c7cf4c46c7f5:0xdd7e89011cfc6946!8m2!3d41.6093373!4d2.287877!15sCg1jb3Bpc3RlcmlhIGE0Wg8iDWNvcGlzdGVyaWEgYTSSAQljb3B5X3Nob3CaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTTBhMkUzV21SbkVBRQ"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView ubi2 = v.findViewById(R.id.ubi2);
+
+        ubi2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/PLANOLS+copisteria+t%C3%A8cnica/@41.59725,2.2874243,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7e9c85da33f:0x217ef1b45dd5548f!8m2!3d41.59725!4d2.289613?hl=es"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView ubi3 = v.findViewById(R.id.ubi3);
+
+        ubi3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Molins+de+Paper/@41.6129349,2.2881282,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7ce7da9a841:0x24e3de20dc47f3e2!8m2!3d41.6129349!4d2.2903169?hl=es"));
+                startActivity(intent1);
+            }
+        });
+
+        return v;
     }
 }

@@ -25,6 +25,31 @@
             android:layout_width="358dp"
             android:layout_height="244dp"
             android:src="@drawable/peluxavier"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/telefon"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/telefon"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/ubi"
+                android:layout_toRightOf="@+id/telefon"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ubi"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/ubi"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/mail"/>
+        </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,6 +76,31 @@
             android:layout_width="358dp"
             android:layout_height="244dp"
             android:src="@drawable/pelubellesa"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/telefon2"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/telefon"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/ubi2"
+                android:layout_toRightOf="@+id/telefon2"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ubi"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/ubi2"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/mail"/>
+        </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -82,6 +132,31 @@
             android:layout_width="358dp"
             android:layout_height="244dp"
             android:src="@drawable/serra2"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/telefon3"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/telefon"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/ubi3"
+                android:layout_toRightOf="@+id/telefon3"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ubi"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/ubi3"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/mail"/>
+        </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
