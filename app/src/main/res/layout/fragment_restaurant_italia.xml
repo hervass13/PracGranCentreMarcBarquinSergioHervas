@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_restaurant_italia"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleItaliano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="EL ITALIANO"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="320dp"
+        android:src="@drawable/el_italiano"
+        android:layout_below="@+id/titleItaliano"
+        android:id="@+id/imgItaliano"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoElItaliano"
+        android:text="Web: https://elitaliano.es/\nUbicació: Plaça de la Corona, 6, 08402, Granollers\nhttps://www.google.com/maps/place/El+ITALIANO/@41.605787,2.2858134,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7c4a601fcf5:0x9fafe095a0a459a4!8m2!3d41.605787!4d2.2880021\n Telèfon: 931 29 63 46"
+        android:autoLink="all"
+        android:layout_below="@+id/imgItaliano"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LA TAGLIATELLA"
+        android:id="@+id/titleTagliatella"
+        android:layout_below="@+id/infoElItaliano"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:layout_width="480dp"
+        android:layout_height="240dp"
+        android:src="@drawable/la_tagliatella"
+        android:layout_below="@+id/titleTagliatella"
+        android:id="@+id/imgTagliatella"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoTagliatella"
+        android:text="Web: https://www.latagliatella.es/restaurantes/barcelona/granollers\nUbicació: Carrer de Joan Prim, 42 08402 Granollers\nhttps://www.google.es/maps/place/Restaurante+La+Tagliatella+%7C+Granollers/@41.6109161,2.2875852,17z/data=!3m2!4b1!5s0x12a4c7cefd8cdea9:0x8c0651c6391f649c!4m5!3m4!1s0x12a4c7cefd9ab97f:0x8e0116b2b3c548e9!8m2!3d41.6109161!4d2.2897739?hl=es\nTelèfon: 938 60 48 99"
+        android:layout_below="@+id/imgTagliatella"
+        android:autoLink="all"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="II SPORE ITALIANO"
+        android:id="@+id/titleSpore"
+        android:layout_below="@+id/infoTagliatella"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:layout_width="460dp"
+        android:layout_height="320dp"
+        android:src="@drawable/il_spore_italiano"
+        android:layout_below="@+id/titleSpore"
+        android:id="@+id/imgSpore"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/infoSporeItaliano"
+        android:text="Web: https://ilsaporeitalianogranollers.es/ \nUbicació: Carrer de Ponent, 41, 08401 Granollers \nhttps://www.google.es/maps/place/Il+Sapore+Italiano/@41.6116014,2.28421,17z/data=!3m2!4b1!5s0x12a4c7c917effe3f:0xd07bdf069053ea9b!4m5!3m4!1s0x12a4c7c922ad7c13:0x4978bc8109f0e496!8m2!3d41.6116014!4d2.2863987?hl=es \n Telèfon: 938 40 15 32"
+        android:layout_below="@+id/imgSpore"
+        android:autoLink="all"
+        android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

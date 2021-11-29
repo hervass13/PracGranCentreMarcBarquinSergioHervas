@@ -1,80 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".moviesF">
+    tools:context=".moviesF"
+    android:orientation="vertical"
+    android:background="@drawable/fondomovies"
+    android:tileMode="repeat">
 
     <!-- TODO: Update blank fragment layout -->
-    <ImageView
-        android:id="@+id/FreeGuy"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/freeguy" />
-
-    <TextView
-        android:layout_width="120dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/FreeGuy"
-        android:id="@+id/TitleFreeGuy"
-        android:text="Free Guy"
-        android:layout_marginTop="40dp"
-        android:layout_marginLeft="10dp" />
+        android:orientation="vertical">
 
-    <TextView
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/GeneroFreeGuy"
-        android:text="Comedy/Action"
-        android:layout_toRightOf="@id/TitleFreeGuy"
-        android:layout_alignTop="@id/TitleFreeGuy"
-        android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/imgFreeGuy"
+            android:layout_width="wrap_content"
+            android:layout_height="590dp"
+            android:src="@drawable/freeguy" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="Títol: Free Guy\nGènere: Comèdia/Acció\nCalificació: 3,7"
+            android:id="@+id/infoFreeGuy"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
 
-    <TextView
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
-        android:text="3,7"
-        android:layout_toRightOf="@+id/GeneroFreeGuy"
-        android:layout_alignTop="@id/TitleFreeGuy"
-        android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="590dp"
+            android:src="@drawable/spiderman"
+            android:id="@+id/imgSpiderman"/>
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/SpiderMan"
-        android:scaleType="fitCenter"
-        android:src="@drawable/spiderman"
-        android:layout_below="@+id/FreeGuy"
-        android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="Títol: Spider-Man: No Way Home\nGènere: Acció/Aventuras\nCalificació: 4,2"
+            android:id="@+id/infoSpiderman"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
 
-    <TextView
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:text="Spider-Man No Way Home"
-        android:id="@+id/TitleSpiderman"
-        android:layout_toRightOf="@id/SpiderMan"
-        android:layout_alignTop="@id/SpiderMan"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="590dp"
+            android:id="@+id/imgVenom"
+            android:src="@drawable/venom"/>
 
-    <TextView
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:text="Action/Science Fiction"
-        android:layout_toRightOf="@id/TitleSpiderman"
-        android:layout_alignTop="@id/TitleSpiderman"
-        android:id="@+id/GeneroSpiderman"
-        android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Títol: Venom: Let there be Carnage\nGènere: Terror/Acció\nCalificació: 3,5"
+            android:id="@+id/infoVenom"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
 
-    <TextView
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
-        android:text="4,2"
-        android:layout_toRightOf="@id/GeneroSpiderman"
-        android:layout_alignTop="@id/TitleSpiderman"
-        android:layout_marginLeft="10dp"/>s
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="590dp"
+            android:src="@drawable/dune"
+            android:id="@+id/imgDune"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="Títol: Dune\nGènere: Novel·la/Ciència ficció\nCalificació: 4,4"
+            android:id="@+id/infoDune"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
 
-</RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

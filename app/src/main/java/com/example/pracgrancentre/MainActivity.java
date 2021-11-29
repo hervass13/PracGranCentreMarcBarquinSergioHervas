@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView Business;
     ImageView Transport;
     ImageView movies;
+    ImageView restaurants;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,5 +48,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentMovies);
             }
         });
+
+        restaurants = findViewById(R.id.restaurants);
+
+        restaurants.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentRestaurants = new Intent(getApplicationContext(), Restaurants.class);
+                startActivity(intentRestaurants);
+            }
+        });
+
     }
 }
