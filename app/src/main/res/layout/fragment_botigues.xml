@@ -49,21 +49,20 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:id="@+id/web"
                 android:layout_toRightOf="@+id/ubi"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/mail"/>
+                android:src="@drawable/web"/>
         </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CONTACTAR: 93 870 89 77\nMAIL: info@agudostores.com\nLLOC WEB: https://agudostores.com/es/"
-            android:autoLink="all" />
+            android:text="MAIL: info@agudostores.com"
+            android:autoLink="email"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="UBICACIÓ: Carrer Anselm Clavé, 18, 08401 Granollers, Barcelona
-            \nhttps://www.google.com/maps/place/AGUDO+LINIA/@41.6077679,2.286484,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7c5ed67828b:0x8482f906ecb8bc2f!8m2!3d41.6077679!4d2.2886727"
-            android:autoLink="web"/>
+            android:text="UBICACIÓ: Carrer Anselm Clavé, 18, 08401 Granollers, Barcelona"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -100,26 +99,24 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:id="@+id/web2"
                 android:layout_toRightOf="@+id/ubi2"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/mail"/>
+                android:src="@drawable/web"/>
         </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CONTACTAR: 93 879 28 16\nMAIL: Info@barbany1895.cat\nLLOC WEB: http://www.barbanygranollers.com/"
-            android:autoLink="all" />
+            android:text="MAIL: Info@barbany1895.cat"
+            android:autoLink="email" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="UBICACIÓ: Carrer Anselm Clavé, 44 08401 GRANOLLERS
-            \nhttps://www.google.com/maps/place/Barbany+Granollers/@41.606755,2.2863073,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7c5c43e1f8b:0xe93179e0ee78aea7!8m2!3d41.606755!4d2.288496?hl=es"
-            android:autoLink="web"/>
+            android:text="UBICACIÓ: Carrer Anselm Clavé, 44 08401 GRANOLLERS"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/horariobarbany"/>
-
 
         <TextView
             android:layout_width="match_parent"
@@ -156,21 +153,20 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:id="@+id/web3"
                 android:layout_toRightOf="@+id/ubi3"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/mail"/>
+                android:src="@drawable/web"/>
         </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CONTACTAR: 938 330 160\nMAIL: hola@montseinteriors.com\nLLOC WEB: https://www.montseinteriors.com/"
-            android:autoLink="all" />
+            android:text="MAIL: hola@montseinteriors.com"
+            android:autoLink="email" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="UBICACIÓ: Carrer d'Alfons IV, 74, 08401 Granollers, Barcelona
-            \nhttps://www.google.com/maps/dir//Montse+Interiors,+Carrer+d'Alfons+IV,+74,+08401+Granollers,+Barcelona/@41.603744,2.0076786,10z/data=!3m1!5s0x12a4c7c4022a9607:0xe21d4c8de94d5eee!4m17!1m7!3m6!1s0x12a4c7c403f678eb:0xfe45f76242a82c66!2sMontse+Interiors!8m2!3d41.603744!4d2.28783!15sChBtb250c2UgaW50ZXJpb3JzIgOIAQFaEiIQbW9udHNlIGludGVyaW9yc5IBEGhvbWVfZ29vZHNfc3RvcmU!4m8!1m0!1m5!1m1!1s0x12a4c7c403f678eb:0xfe45f76242a82c66!2m2!1d2.28783!2d41.603744!3e3?hl=es"
-            android:autoLink="web"/>
+            android:text="UBICACIÓ: Carrer d'Alfons IV, 74, 08401 Granollers, Barcelona"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

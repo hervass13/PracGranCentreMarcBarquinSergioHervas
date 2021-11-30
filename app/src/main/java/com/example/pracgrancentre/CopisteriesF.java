@@ -94,6 +94,70 @@ public class CopisteriesF extends Fragment {
             }
         });
 
+        ///TELEFONOS//////////////////
+
+        ImageView tlf = v.findViewById(R.id.telefon);
+
+        tlf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:938700026"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView tlf2 = v.findViewById(R.id.telefon2);
+
+        tlf2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:938701704"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView tlf3 = v.findViewById(R.id.telefon3);
+
+        tlf3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:938467590"));
+                startActivity(intent1);
+            }
+        });
+
+        /// MAIL/////////////
+
+        ImageView web = v.findViewById(R.id.web);
+
+        web.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.a4copisteria.com/"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView web2 = v.findViewById(R.id.web2);
+
+        web2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.planols.com/"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView web3 = v.findViewById(R.id.web3);
+
+        web3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://molinsdepaper.amilibro.com/"));
+                startActivity(intent1);
+            }
+        });
+
         return v;
     }
 }

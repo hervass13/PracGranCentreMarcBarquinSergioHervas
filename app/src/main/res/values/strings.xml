@@ -6,4 +6,19 @@
 Canovelles i Les Franqueses: 668 84 39 85\nTaxi Granollers-Arnau: 678 05 51 37\n
 Taxi Granollers 7 plazas Javier León: 611 40 79 82\n
 Ràdio Taxi Granollers: 938 70 30 00\nTaxi Durán 24h. Granollers: 678 44 51 30</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_settings">SettingsActivity</string>
 </resources>

@@ -37,34 +37,27 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:id="@+id/telefon"
-                android:layout_marginLeft="100dp"
-                android:src="@drawable/telefon"/>
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
                 android:id="@+id/ubi"
-                android:layout_toRightOf="@+id/telefon"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="100dp"
                 android:src="@drawable/ubi"/>
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:id="@+id/web"
                 android:layout_toRightOf="@+id/ubi"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/mail"/>
+                android:src="@drawable/web"/>
         </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CONTACTAR: 2046.granollers.fb@gmail.com\nLLOC WEB: http://www.2046granollers.com"
-            android:autoLink="all" />
+            android:text="CONTACTAR: 2046.granollers.fb@gmail.com"
+            android:autoLink="email" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="UBICACIÓ: Passeig Fluvial, 1, 08403 Granollers, Barcelona
-            \nhttps://www.google.es/maps/place/Carrer+Sabadell,+2046,+08403+Granollers,+Barcelona/@41.602958,2.278551,14z/data=!4m5!3m4!1s0x12a4c7beaf62f6a3:0xfa4b053e91aa8e17!8m2!3d41.6030526!4d2.2782321"
-            android:autoLink="web"/>
+            android:text="UBICACIÓ: Passeig Fluvial, 1, 08403 Granollers, Barcelona"/>
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -101,26 +94,24 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:id="@+id/web2"
                 android:layout_toRightOf="@+id/ubi2"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/mail"/>
+                android:src="@drawable/web"/>
         </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CONTACTAR: 619 72 71 44\nLLOC WEB:https://www.carpasborabora.com/"
-            android:autoLink="all" />
+            android:text="MAIL: mail@bora.com"
+            android:autoLink="email" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="UBICACIÓ: Carrer de Sant Ferran, 200, 08205 Sabadell, Barcelona
-            \nhttps://www.google.com/maps/place/Discoteca+Bora+Bora/@41.552141,2.1111144,12z/data=!4m9!1m2!2m1!1sbora+granollers!3m5!1s0x12a4945117795231:0x634a71c4b718cc0c!8m2!3d41.5358485!4d2.0988055!15sCg9ib3JhIGdyYW5vbGxlcnNaESIPYm9yYSBncmFub2xsZXJzkgEKbmlnaHRfY2x1Yg"
-            android:autoLink="web"/>
+            android:text="UBICACIÓ: Carrer de Sant Ferran, 200, 08205 Sabadell, Barcelona"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/horariobora"/>
-
 
         <TextView
             android:layout_width="match_parent"
@@ -157,21 +148,20 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:id="@+id/web3"
                 android:layout_toRightOf="@+id/ubi3"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/mail"/>
+                android:src="@drawable/web"/>
         </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CONTACTAR: 626 75 11 58\nMAIL: hola@navugranollers.com\nLLOC WEB:https://www.navugranollers.com/es/#/events"
-            android:autoLink="all" />
+            android:text="MAIL: hola@navugranollers.com"
+            android:autoLink="email" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="UBICACIÓ: Carrer Montseny, 17, 08402 Granollers, Barcelona
-            \nhttps://www.google.com/maps/place/Navu+Granollers/@41.6095211,2.3010403,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c95c00380615:0xe3d38f405b677ce2!8m2!3d41.6095211!4d2.303229?hl=es"
-            android:autoLink="web"/>
+            android:text="UBICACIÓ: Carrer Montseny, 17, 08402 Granollers, Barcelona"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

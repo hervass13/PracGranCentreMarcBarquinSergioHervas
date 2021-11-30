@@ -3,19 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout-land/activity_business.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout-land/activity_main.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout-land/activity_transport.xml" value="0.21516754850088182" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/activity_business.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/activity_main.xml" value="0.14266304347826086" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/activity_transport.xml" value="0.14266304347826086" />
-        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/fragment_transport.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/fragment_botigues.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/fragment_business.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/fragment_copisteries.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/fragment_discoteques.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/fragment_perruqueries.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/fragment_transport.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/item.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/layout/settings_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/mipmap-anydpi-v26/icGranCentre.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/PracGranCentre/app/src/main/res/xml/root_preferences.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PracGranCentreMarcBarquinSergioHervas/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PracGranCentreMarcBarquinSergioHervas/app/src/main/res/layout/activity_movies.xml" value="0.1598731884057971" />
-        <entry key="..\:/Users/usuario/AndroidStudioProjects/PracGranCentreMarcBarquinSergioHervas/app/src/main/res/layout/activity_restaurants.xml" value="0.2" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/PracGranCentreMarcBarquinSergioHervas/app/src/main/res/layout/activity_restaurants.xml" value="0.1598731884057971" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PracGranCentreMarcBarquinSergioHervas/app/src/main/res/layout/activity_transport.xml" value="0.23731884057971014" />
-        <entry key="..\:/Users/usuario/AndroidStudioProjects/PracGranCentreMarcBarquinSergioHervas/app/src/main/res/layout/fragment_movies.xml" value="0.176" />
-        <entry key="..\:/Users/usuario/AndroidStudioProjects/PracGranCentreMarcBarquinSergioHervas/app/src/main/res/layout/fragment_restaurant_italia.xml" value="0.25252525252525254" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/PracGranCentreMarcBarquinSergioHervas/app/src/main/res/layout/fragment_movies.xml" value="0.2" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PracGranCentreMarcBarquinSergioHervas/app/src/main/res/layout/fragment_transport.xml" value="0.23731884057971014" />
-        <entry key="..\:/Users/usuario/AndroidStudioProjects/PracGranCentreMarcBarquinSergioHervas/app/src/main/res/layout/item.xml" value="0.13020833333333334" />
       </map>
     </option>
   </component>
