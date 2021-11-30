@@ -29,17 +29,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/infoElItaliano"
-        android:text="Web: https://elitaliano.es/\nUbicació: Plaça de la Corona, 6, 08402, Granollers\nhttps://www.google.com/maps/place/El+ITALIANO/@41.605787,2.2858134,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7c4a601fcf5:0x9fafe095a0a459a4!8m2!3d41.605787!4d2.2880021\n Telèfon: 931 29 63 46"
-        android:autoLink="all"
+        android:text="Web: https://elitaliano.es/"
+        android:autoLink="web"
         android:layout_below="@+id/imgItaliano"
         android:textSize="14sp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/telefon"
+        android:layout_below="@+id/infoElItaliano"
+        android:id="@+id/telefonElItaliano"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ubi"
+        android:layout_toRightOf="@+id/telefonElItaliano"
+        android:layout_alignTop="@+id/telefonElItaliano"
+        android:id="@+id/ubiItaliano"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LA TAGLIATELLA"
         android:id="@+id/titleTagliatella"
-        android:layout_below="@+id/infoElItaliano"
+        android:layout_below="@+id/ubiItaliano"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="40dp"
         android:textSize="16sp"/>
@@ -55,17 +70,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/infoTagliatella"
-        android:text="Web: https://www.latagliatella.es/restaurantes/barcelona/granollers\nUbicació: Carrer de Joan Prim, 42 08402 Granollers\nhttps://www.google.es/maps/place/Restaurante+La+Tagliatella+%7C+Granollers/@41.6109161,2.2875852,17z/data=!3m2!4b1!5s0x12a4c7cefd8cdea9:0x8c0651c6391f649c!4m5!3m4!1s0x12a4c7cefd9ab97f:0x8e0116b2b3c548e9!8m2!3d41.6109161!4d2.2897739?hl=es\nTelèfon: 938 60 48 99"
+        android:text="Web: https://www.latagliatella.es/restaurantes/barcelona/granollers"
         android:layout_below="@+id/imgTagliatella"
-        android:autoLink="all"
+        android:autoLink="web"
         android:textSize="14sp"/>
 
-    <TextView
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/telefon"
+            android:layout_below="@+id/infoTagliatella"
+            android:id="@+id/telefonTagliatella"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ubi"
+            android:layout_toRightOf="@+id/telefonTagliatella"
+            android:layout_alignTop="@+id/telefonTagliatella"
+            android:id="@+id/ubiTagliatella"/>
+
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="II SPORE ITALIANO"
         android:id="@+id/titleSpore"
-        android:layout_below="@+id/infoTagliatella"
+        android:layout_below="@+id/telefonTagliatella"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="40dp"
         android:textSize="16sp"/>
@@ -81,10 +111,25 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/infoSporeItaliano"
-        android:text="Web: https://ilsaporeitalianogranollers.es/ \nUbicació: Carrer de Ponent, 41, 08401 Granollers \nhttps://www.google.es/maps/place/Il+Sapore+Italiano/@41.6116014,2.28421,17z/data=!3m2!4b1!5s0x12a4c7c917effe3f:0xd07bdf069053ea9b!4m5!3m4!1s0x12a4c7c922ad7c13:0x4978bc8109f0e496!8m2!3d41.6116014!4d2.2863987?hl=es \n Telèfon: 938 40 15 32"
+        android:text="Web: https://ilsaporeitalianogranollers.es/"
         android:layout_below="@+id/imgSpore"
-        android:autoLink="all"
+        android:autoLink="web"
         android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/telefon"
+            android:layout_below="@+id/infoSporeItaliano"
+            android:id="@+id/telefonSpore"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ubi"
+            android:layout_toRightOf="@+id/telefonSpore"
+            android:layout_alignTop="@+id/telefonSpore"
+            android:id="@+id/ubiSpore"/>
 
     </RelativeLayout>
 

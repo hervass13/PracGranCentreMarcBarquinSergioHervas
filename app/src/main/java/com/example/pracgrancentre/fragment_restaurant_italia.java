@@ -1,5 +1,8 @@
 package com.example.pracgrancentre;
 
+import android.content.Intent;
+import android.media.Image;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +10,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -56,10 +61,73 @@ public class fragment_restaurant_italia extends Fragment {
     }
 
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_restaurant_italia, container, false);
+        View v = inflater.inflate(R.layout.fragment_restaurant_italia, container, false);
+
+        ImageView ubiItaliano = v.findViewById(R.id.ubiItaliano);
+
+        ubiItaliano.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/El+ITALIANO/@41.605787,2.2858134,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c7c4a601fcf5:0x9fafe095a0a459a4!8m2!3d41.605787!4d2.2880021"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView telfItaliano = v.findViewById(R.id.telefonElItaliano);
+
+        telfItaliano.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_CALL, Uri.parse("tel: 931 29 63 46"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView ubiTagliatella = v.findViewById(R.id.ubiTagliatella);
+
+        ubiTagliatella.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/Restaurante+La+Tagliatella+%7C+Granollers/@41.6109161,2.2875852,17z/data=!3m2!4b1!5s0x12a4c7cefd8cdea9:0x8c0651c6391f649c!4m5!3m4!1s0x12a4c7cefd9ab97f:0x8e0116b2b3c548e9!8m2!3d41.6109161!4d2.2897739?hl=es"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView telfTagliatella = v.findViewById(R.id.telefonTagliatella);
+
+        telfTagliatella.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_CALL, Uri.parse("tel:938604899"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView ubiSpore = v.findViewById(R.id.ubiSpore);
+
+        ubiSpore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/Il+Sapore+Italiano/@41.6116014,2.28421,17z/data=!3m2!4b1!5s0x12a4c7c917effe3f:0xd07bdf069053ea9b!4m5!3m4!1s0x12a4c7c922ad7c13:0x4978bc8109f0e496!8m2!3d41.6116014!4d2.2863987?hl=es"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView telfSpore = v.findViewById(R.id.telefonSpore);
+
+        telfSpore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_CALL, Uri.parse("tel: 938 40 15 32"));
+                startActivity(intent1);
+            }
+        });
+
+        return v;
     }
 }
