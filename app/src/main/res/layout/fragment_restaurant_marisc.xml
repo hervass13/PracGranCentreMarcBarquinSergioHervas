@@ -1,14 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment_restaurant_marisc">
+    tools:context=".fragment_restaurant_marisc"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleOsGalegos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTAURANTE MARISQUERÍA OS GALEGOS"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:src="@drawable/osgalegos"
+        android:layout_below="@+id/titleOsGalegos"
+        android:id="@+id/imgOsGalegos"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoOsGalegos"
+        android:text="Ubicacio: Travessia del Lledoner,9, 08402 Granollers\nValoració: 4,1\nMail: info@osgalegos.com;"
+        android:autoLink="email"
+        android:layout_below="@+id/imgOsGalegos"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/telefon"
+        android:layout_below="@+id/infoOsGalegos"
+        android:id="@+id/telefonOsGalegos"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ubi"
+        android:layout_toRightOf="@+id/telefonOsGalegos"
+        android:layout_alignTop="@+id/telefonOsGalegos"
+        android:id="@+id/ubiOsGalegos"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/web"
+        android:layout_toRightOf="@+id/ubiOsGalegos"
+        android:layout_alignTop="@+id/ubiOsGalegos"
+        android:id="@+id/webOsGalegos"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTAURANT EL CISNE"
+        android:id="@+id/titleCisne"
+        android:layout_below="@+id/ubiOsGalegos"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/elcisne"
+        android:layout_below="@+id/titleCisne"
+        android:id="@+id/imgCisne"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoCisne"
+        android:text="Ubicació: Carrer Anselm Clavé, 75-77, 08402 Granollers\nValoració: 4,4"
+        android:layout_below="@+id/imgCisne"
+        android:autoLink="web"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/telefon"
+        android:layout_below="@+id/infoCisne"
+        android:id="@+id/telefonCisne"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ubi"
+        android:layout_toRightOf="@+id/telefonCisne"
+        android:layout_alignTop="@+id/telefonCisne"
+        android:id="@+id/ubiCisne"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/web"
+        android:layout_toRightOf="@+id/ubiCisne"
+        android:layout_alignTop="@+id/ubiCisne"
+        android:id="@+id/webCisne"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTAURANTE LA GRAN OLLA"
+        android:id="@+id/titleGranOlla"
+        android:layout_below="@+id/telefonCisne"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:src="@drawable/granolla"
+        android:layout_below="@+id/titleGranOlla"
+        android:id="@+id/imgGranOlla"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/infoGranOlla"
+        android:text="Ubicació: Carrer de Francesc Macià i Llussà, 300, 08401 Granollers\nValoració: 3,9\nMail: h.granollers@hotelgranollers.com"
+        android:layout_below="@+id/imgGranOlla"
+        android:autoLink="email"
+        android:textSize="14sp"/>
 
-</FrameLayout>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/telefon"
+        android:layout_below="@+id/infoGranOlla"
+        android:id="@+id/telefonGranOlla"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ubi"
+        android:layout_toRightOf="@+id/telefonGranOlla"
+        android:layout_alignTop="@+id/telefonGranOlla"
+        android:id="@+id/ubiGranOlla"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/web"
+        android:layout_toRightOf="@+id/ubiGranOlla"
+        android:layout_alignTop="@+id/ubiGranOlla"
+        android:id="@+id/webGranOlla"/>
+
+    </RelativeLayout>
+
+</ScrollView>

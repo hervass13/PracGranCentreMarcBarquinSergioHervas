@@ -1,5 +1,7 @@
 package com.example.pracgrancentre;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,6 +62,98 @@ public class fragment_restaurant_vegetaria extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_restaurant_vegetaria, container, false);
+        View v = inflater.inflate(R.layout.fragment_restaurant_vegetaria, container, false);
+
+        ImageView telefongatoverde = v.findViewById(R.id.telefonGatoVerde);
+
+        telefongatoverde.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:938403836"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView ubigatoverde = v.findViewById(R.id.ubiGatoVerde);
+
+        ubigatoverde.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir/41.548454,2.2925922/restaurante+vegetariano+granollers/@41.5803556,2.2357467,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a4c62ca6148df3:0x3789eb48dbe16ed8!2m2!1d2.2869426!2d41.6107729"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView webgatoverde = v.findViewById(R.id.webGatoVerde);
+
+        webgatoverde.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.apadis.org/el-restaurant.html"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView telefoncookessa = v.findViewById(R.id.telefonCookessa);
+
+        telefoncookessa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:931352136"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView ubicookessa = v.findViewById(R.id.ubiCookessa);
+
+        ubicookessa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir/41.548454,2.2925922/restaurante+vegetariano+granollers/@41.5803556,2.2357467,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a4c79a6208c3b9:0x4e0b3874183aa836!2m2!1d2.2859485!2d41.6104197"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView webcookessa = v.findViewById(R.id.webCookessa);
+
+        webcookessa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.apadis.org/el-restaurant.html"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView telefonmint = v.findViewById(R.id.telefonMint);
+
+        telefonmint.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:936254198"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView ubimint = v.findViewById(R.id.ubiMint);
+
+        ubimint.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir/41.548454,2.2925922/restaurante+vegetariano+granollers/@41.5794199,2.2540336,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a4c7c4538d507f:0xeeb9a3ffc88b851d!2m2!1d2.284358!2d41.607668"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView webmint = v.findViewById(R.id.webMint);
+
+        webmint.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://mintgranollers.com/"));
+                startActivity(intent1);
+            }
+        });
+
+        return v;
     }
 }

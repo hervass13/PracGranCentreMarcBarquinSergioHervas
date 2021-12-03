@@ -1,16 +1,14 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <PreferenceCategory app:title="Datos Personales">
-
+    <PreferenceCategory android:title="Color de fons">
         <EditTextPreference
-            app:key="nombre usuario"
-            app:summary="Pulse para cambiar el nombre"
-            app:title="Cambiar el nombre de Usuario" />
-
+            android:key="colorBackground"
+            android:title="Cambia el color de fons"
+            android:summary="Pulse per teclejar el color de fons"/>
     </PreferenceCategory>
 
-    <PreferenceCategory app:title="Ajustes de la web">
+    <!--<PreferenceCategory app:title="Ajustes de la web">
 
         <ListPreference
             android:defaultValue="circulo"
@@ -59,5 +57,5 @@
             app:title="@string/attachment_title" />
 
     </PreferenceCategory>
-
+-->
 </PreferenceScreen>

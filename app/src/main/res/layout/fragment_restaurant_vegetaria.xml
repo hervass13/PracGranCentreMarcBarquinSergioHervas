@@ -1,14 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment_restaurant_vegetaria">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/titleGatoVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESTAURANTE EL GATO VERDE"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:src="@drawable/gatoverde"
+            android:layout_below="@+id/titleGatoVerde"
+            android:id="@+id/imgGatoVerde"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/infoGatoVerde"
+            android:text="Ubicacio: Carrer de Josep Torres i Bages, 50, 08401 Granollers\nValoració: 4,5"
+            android:layout_below="@+id/imgGatoVerde"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/telefon"
+            android:layout_below="@+id/infoGatoVerde"
+            android:id="@+id/telefonGatoVerde"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ubi"
+            android:layout_toRightOf="@+id/telefonGatoVerde"
+            android:layout_alignTop="@+id/telefonGatoVerde"
+            android:id="@+id/ubiGatoVerde"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/web"
+            android:layout_toRightOf="@+id/ubiGatoVerde"
+            android:layout_alignTop="@+id/ubiGatoVerde"
+            android:id="@+id/webGatoVerde"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LA COOKESSA BIO"
+            android:id="@+id/titleCookessa"
+            android:layout_below="@+id/ubiGatoVerde"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/cookessabio"
+            android:layout_below="@+id/titleCookessa"
+            android:id="@+id/imgCookessa"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/infoCookessa"
+            android:text="Ubicació: Carrer de Ponent, 25, 08401 Granollers\nValoració: 4,7\nMail: info@lacookessabio.com"
+            android:layout_below="@+id/imgCookessa"
+            android:autoLink="email"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/telefon"
+            android:layout_below="@+id/infoCookessa"
+            android:id="@+id/telefonCookessa"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ubi"
+            android:layout_toRightOf="@+id/telefonCookessa"
+            android:layout_alignTop="@+id/telefonCookessa"
+            android:id="@+id/ubiCookessa"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/web"
+            android:layout_toRightOf="@+id/ubiCookessa"
+            android:layout_alignTop="@+id/ubiCookessa"
+            android:id="@+id/webCookessa"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MINT RESTAURANT"
+            android:id="@+id/titleMint"
+            android:layout_below="@+id/telefonCookessa"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:src="@drawable/mint"
+            android:layout_below="@+id/titleMint"
+            android:id="@+id/imgMint"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/infoMint"
+            android:text="Ubicació: Carrer de Sant Josep, 10, 08401 Granollers\nValoració: 4,5\nMail: hello@mintgranollers.com"
+            android:layout_below="@+id/imgMint"
+            android:autoLink="email"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/telefon"
+            android:layout_below="@+id/infoMint"
+            android:id="@+id/telefonMint"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ubi"
+            android:layout_toRightOf="@+id/telefonMint"
+            android:layout_alignTop="@+id/telefonMint"
+            android:id="@+id/ubiMint"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/web"
+            android:layout_toRightOf="@+id/ubiMint"
+            android:layout_alignTop="@+id/ubiMint"
+            android:id="@+id/webMint"/>
+
+    </RelativeLayout>
+
+</ScrollView>

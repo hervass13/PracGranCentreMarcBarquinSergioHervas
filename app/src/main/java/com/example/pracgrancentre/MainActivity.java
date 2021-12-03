@@ -2,8 +2,12 @@ package com.example.pracgrancentre;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.preference.PreferenceManager;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -64,6 +68,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        if(sharedPreferences.contains("colorBackground"))
+        {
+            String colorBackground = sharedPreferences.getString("colorBackground","");
+            getWindow().setBackgroundDrawable(new ColorDrawable(Color.parseColor(colorBackground)));
+        }
     }
 
     @Override

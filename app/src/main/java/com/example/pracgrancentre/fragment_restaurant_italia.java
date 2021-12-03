@@ -83,7 +83,17 @@ public class fragment_restaurant_italia extends Fragment {
         telfItaliano.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1 = new Intent(Intent.ACTION_CALL, Uri.parse("tel: 931 29 63 46"));
+                Intent intent1 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:931296346"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView webItaliano = v.findViewById(R.id.webItalianp);
+
+        webItaliano.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://elitaliano.es/"));
                 startActivity(intent1);
             }
         });
@@ -103,7 +113,17 @@ public class fragment_restaurant_italia extends Fragment {
         telfTagliatella.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1 = new Intent(Intent.ACTION_CALL, Uri.parse("tel:938604899"));
+                Intent intent1 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:938604899"));
+                startActivity(intent1);
+            }
+        });
+
+        ImageView webTagliatella = v.findViewById(R.id.webTagliatella);
+
+        webTagliatella.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.latagliatella.es/restaurantes/barcelona/granollers"));
                 startActivity(intent1);
             }
         });
@@ -123,8 +143,18 @@ public class fragment_restaurant_italia extends Fragment {
         telfSpore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1 = new Intent(Intent.ACTION_CALL, Uri.parse("tel: 938 40 15 32"));
+                Intent intent1 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:938401532"));
                 startActivity(intent1);
+            }
+        });
+
+        ImageView webSpore = v.findViewById(R.id.webSpore);
+
+        webSpore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent inten1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://ilsaporeitalianogranollers.es/"));
+                startActivity(inten1);
             }
         });
 

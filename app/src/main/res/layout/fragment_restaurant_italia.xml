@@ -29,8 +29,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/infoElItaliano"
-        android:text="Web: https://elitaliano.es/"
-        android:autoLink="web"
+        android:text="Ubicacio: Plaça de la Corona, 6, 08402 Granollers\nValoració: 3,8\nMail: eat@elitalianodegranollers.com"
+        android:autoLink="email"
         android:layout_below="@+id/imgItaliano"
         android:textSize="14sp"/>
 
@@ -48,6 +48,14 @@
         android:layout_toRightOf="@+id/telefonElItaliano"
         android:layout_alignTop="@+id/telefonElItaliano"
         android:id="@+id/ubiItaliano"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/web"
+        android:layout_toRightOf="@+id/ubiItaliano"
+        android:layout_alignTop="@+id/ubiItaliano"
+        android:id="@+id/webItalianp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -70,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/infoTagliatella"
-        android:text="Web: https://www.latagliatella.es/restaurantes/barcelona/granollers"
+        android:text="Ubicació: Carrer de Joan Prim, 42, 08400 Granollers\nValoració: 4,1"
         android:layout_below="@+id/imgTagliatella"
         android:autoLink="web"
         android:textSize="14sp"/>
@@ -89,6 +97,14 @@
             android:layout_toRightOf="@+id/telefonTagliatella"
             android:layout_alignTop="@+id/telefonTagliatella"
             android:id="@+id/ubiTagliatella"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/web"
+            android:layout_toRightOf="@+id/ubiTagliatella"
+            android:layout_alignTop="@+id/ubiTagliatella"
+            android:id="@+id/webTagliatella"/>
 
         <TextView
         android:layout_width="wrap_content"
@@ -111,7 +127,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/infoSporeItaliano"
-        android:text="Web: https://ilsaporeitalianogranollers.es/"
+        android:text="Ubicació: Carrer de Ponent, 41, 08401 Granollers\nValoració: 4,1"
         android:layout_below="@+id/imgSpore"
         android:autoLink="web"
         android:textSize="14sp"/>
@@ -130,6 +146,14 @@
             android:layout_toRightOf="@+id/telefonSpore"
             android:layout_alignTop="@+id/telefonSpore"
             android:id="@+id/ubiSpore"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/web"
+            android:layout_toRightOf="@+id/ubiSpore"
+            android:layout_alignTop="@+id/ubiSpore"
+            android:id="@+id/webSpore"/>
 
     </RelativeLayout>
 
