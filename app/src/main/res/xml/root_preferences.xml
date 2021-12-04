@@ -8,7 +8,7 @@
             android:summary="Pulse per teclejar el color de fons"/>
     </PreferenceCategory>
 
-    <!--<PreferenceCategory app:title="Ajustes de la web">
+    <PreferenceCategory app:title="Ajustes de la web">
 
         <ListPreference
             android:defaultValue="circulo"
@@ -57,5 +57,4 @@
             app:title="@string/attachment_title" />
 
     </PreferenceCategory>
--->
 </PreferenceScreen>
