@@ -4,8 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.preference.PreferenceManager;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
@@ -103,6 +107,18 @@ public class Restaurants extends AppCompatActivity {
         startActivity(i);
 
         return true;
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        if(sharedPreferences.contains("colorBackground"))
+        {
+            String colorBackground = sharedPreferences.getString("colorBackground","");
+            getWindow().setBackgroundDrawable(new ColorDrawable(Color.parseColor(colorBackground)));
+        }
     }
 
 }

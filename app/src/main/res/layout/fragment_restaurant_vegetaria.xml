@@ -18,7 +18,7 @@
             android:textSize="18sp"/>
 
         <ImageView
-            android:layout_width="match_parent"
+            android:layout_width="420dp"
             android:layout_height="260dp"
             android:src="@drawable/gatoverde"
             android:layout_below="@+id/titleGatoVerde"
@@ -65,7 +65,7 @@
             android:textSize="16sp"/>
 
         <ImageView
-            android:layout_width="match_parent"
+            android:layout_width="420dp"
             android:layout_height="300dp"
             android:src="@drawable/cookessabio"
             android:layout_below="@+id/titleCookessa"
@@ -113,7 +113,7 @@
             android:textSize="16sp"/>
 
         <ImageView
-            android:layout_width="match_parent"
+            android:layout_width="420dp"
             android:layout_height="320dp"
             android:src="@drawable/mint"
             android:layout_below="@+id/titleMint"
